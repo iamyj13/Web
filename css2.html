@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+body {
+    margin: 0;
+}
+
+#list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position:absolute;
+    height: 100%;
+    overflow: auto;
+}
+
+#list li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#list li a.active {
+/*    background-color: #4CAF50;*/
+    background-color:darkturquoise ;
+    color: white;
+}
+
+#list li a:hover:not(.active) {
+    background-color: #555;
+    color: white
+.container-fluid {
+      padding: 60px 50px;
+  }
+ 
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+  </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="C:\Users\Yash\Desktop\Html css and js\index.html">Home</a></li>
+          <li><a href="https://gadgets.ndtv.com/news">News</a></li>
+        <li><a href="C:\Users\Yash\Desktop\Html css and js\index.html#contact">Contact</a></li>
+        <li><a href="C:\Users\Yash\Desktop\Html css and js\index.html#about">About</a></li>
+          
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="C:\Users\Yash\Desktop\Html css and js\sl.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="C:\Users\Yash\Desktop\Html css and js\login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div id="list">
+<ul>
+   <li><a  href="css1.html">CSS - Home</a></li>
+  <li><a class="active" href="#">CSS - Types</a></li>
+  <li><a href="css3.html">CSS - Syntax</a></li>
+
+  <li><a href="#">CSS - Measurement units</a></li>
+ 
+</ul>
+</div>    
+
+<div style="margin-left:25%;padding:1px 16px;height:1000px;">
+      <center> <h2>Types of CSS</h2><hr><br></center>
+  <p style="font-size:16px">Types of CSS (Cascading Style Sheet)
+Cascading Style Sheet(CSS) is used to set the style in web pages which contain HTML elements. It sets the background color, font-size, font-family, color, … etc property of elements in a web pages.
+There are three types of CSS which are given below:</p>
+<ul>
+<li>Inline CSS 1</li>
+<li>Internal or Embedded CSS</li>
+<li>External CSS</li>
+           </ul>
+		 <p style="font-size:16px"> <u> Inline CSS:</u> Inline CSS contains the CSS property in the body section attached with element is known as inline CSS. This kind of style is specified within an HTML tag using style attribute.
+</p><br>
+
+<p style="font-size:16px"><u> Internal or Embedded CSS:</u> This can be used when a single HTML document must be styled uniquely. The CSS rule set should be within the HTML file in the head section i.e the CSS is embedded within the HTML file.
+		</p> 
+<p style="font-size:16px"><u>External CSS:</u> External CSS contains separate CSS file which contains only style property with the help of tag attributes (For example class, id, heading, … etc). CSS property written in a separate file with .css extension and should be linked to the HTML document using link tag. This means that for each element, style can be set only once and that will be applied across web pages.
+</p>
+</div>
+
+
+
+</body>
+</html>

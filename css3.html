@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+body {
+    margin: 0;
+}
+
+#list ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    position:absolute;
+    height: 100%;
+    overflow: auto;
+}
+
+#list li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#list li a.active {
+/*    background-color: #4CAF50;*/
+    background-color:darkturquoise ;
+    color: white;
+}
+
+#list li a:hover:not(.active) {
+    background-color: #555;
+    color: white
+.container-fluid {
+      padding: 60px 50px;
+  }
+ 
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+  </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="C:\Users\Yash\Desktop\Html css and js\index.html">Home</a></li>
+          <li><a href="https://gadgets.ndtv.com/news">News</a></li>
+        <li><a href="C:\Users\Yash\Desktop\Html css and js\index.html#contact">Contact</a></li>
+        <li><a href="C:\Users\Yash\Desktop\Html css and js\index.html#about">About</a></li>
+          
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="C:\Users\Yash\Desktop\Html css and js\sl.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+        <li><a href="C:\Users\Yash\Desktop\Html css and js\login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div id="list">
+<ul>
+   <li><a  href="css1.html">CSS - Home</a></li>
+  <li><a class="active" href="css2.html">CSS - Types</a></li>
+  <li><a href="#">CSS - Syntax</a></li>
+
+  <li><a href="#">CSS - Measurement units</a></li>
+ 
+</ul>
+</div>    
+
+<div style="margin-left:25%;padding:1px 16px;height:100px;">
+      <center> <h2>Syntax</h2><hr><br></center>
+  <center><p style="font-size:20px">Inline CSS</p></center>
+
+    
+		 <p style="font-size:16px">
+		 <pre>
+  <code>
+&lt;DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset="UTF-8"&gt;
+&lt;title&gt;Inline CSS&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;p&gt;style = "color:#009900; 
+                    font-size:50px; 
+                    font-style:italic; 
+                    text-align:center;"&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+  </code></p><br>
+
+<center>
+<p style="font-size:20px">Internal or Embedded CSS
+		</p> </center>
+		<p style="font-size:16px"> <pre>
+  <code>
+&lt;DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+&lt;meta charset="UTF-8"&gt;
+&lt;title&gt;Tnternal CSS&lt;/title&gt;
+&lt;style&gt;
+            .main { 
+                text-align:center;    
+            } 
+            .GFG { 
+                color:#009900; 
+                font-size:50px; 
+                font-weight:bold; 
+            } 
+            .geeks { 
+                font-style:bold; 
+                font-size:20px; 
+            } 
+        &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;div class = "main"&gt;
+        &lt;div class ="GFG"&gt;GeeksForGeeks &lt;/div&gt;
+        &lt;div class ="geeks"&gt;A computer science portal for geeks&lt;/p&gt;
+        &lt;/div&gt; 
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+  </code>
+		</p><br>
+<center><p style="font-size:20px">External CSS
+</p></center>
+<p style="font-size:16px">
+<pre>
+<code>
+&lt;link rel="stylesheet" href="geeks.css"/&gt;
+<b>"HTML file includes this css through a linked CSS file"</b>
+body {
+    background-color:powderblue;
+}
+.main {
+    text-align:center;   
+}
+.GFG {
+    color:#009900;
+    font-size:50px;
+    font-weight:bold;
+}
+#geeks {
+    font-style:bold;
+    font-size:20px;
+}
+</pre>
+</code>
+</p>
+</div>
+
+
+
+</body>
+</html>
